@@ -11,5 +11,5 @@
 // } from "src/generated/EditHouseQuery";
 
 export default function EditHouse() {
-  return <div>EditHouse</div>>
+  return <div>EditHouse</div>
 }
