@@ -37,7 +37,7 @@ const Layout: FunctionComponent<IProps> = ({ main }) => {
         </div>
       </nav>
       <main
-        className="bg-green-900"
+        className="bg-gray-900"
         style={{ minHeight: "calc(100vh - 70px)" }}
       >
         {main}
