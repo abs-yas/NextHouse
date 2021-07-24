@@ -26,7 +26,7 @@ const FirebaseAuth: FunctionComponent = () => {
       {renderAuth ? (
         <StyledFirebaseAuth
           uiConfig={firebaseauthConfig}
-          firebaseAuth={firebase.auth()}
+          firebaseAuth={firebase.auth()} 
         />
       ) : null}
     </div>
