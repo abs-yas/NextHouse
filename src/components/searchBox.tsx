@@ -93,7 +93,12 @@ const PlacesSearchBox = ({
         <ComboboxList>
           {status === "OK" &&
             data.map(({ place_id, description }) => (
-              <ComboboxOption key={place_id} value={description} />
+              <ComboboxOption
+                className="w-full p-2  text-md text-green-600"
+                autoComplete="off"
+                key={place_id}
+                value={description}
+              />
             ))}
         </ComboboxList>
       </ComboboxPopover>
